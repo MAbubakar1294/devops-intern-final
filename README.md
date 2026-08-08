@@ -1,3 +1,4 @@
+[![CI](https://github.com/MAbubakar1294/devops-intern-final/actions/workflows/ci.yml/badge.svg)](https://github.com/MAbubakar1294/devops-intern-final/actions/workflows/ci.yml)
 \# DevOps Intern Final Assessment
 
 
