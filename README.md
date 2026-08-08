@@ -50,3 +50,20 @@ The `hello.py` script prints:
 
 Hello, DevOps!
 
+
+## Step 3: Docker Basics
+
+The `hello.py` application is containerized using Docker.
+
+### Dockerfile
+
+The Dockerfile uses Python 3.12 Slim as the base image:
+
+```dockerfile
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY hello.py .
+
+CMD ["python", "hello.py"]
